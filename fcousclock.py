@@ -1,5 +1,6 @@
 import time
 
+
 def count_down(minutes):
     seconds = minutes * 60
     while seconds > 0:
@@ -8,5 +9,5 @@ def count_down(minutes):
         print(timer, end='\r')
         time.sleep(1)
         seconds -= 1
-    
+
     print("Time up!")
